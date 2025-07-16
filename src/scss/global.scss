@@ -1,0 +1,47 @@
+ /*glob*/
+  
+.flex {
+  display: flex;
+  }
+  
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 75px;
+  }
+
+.title{
+  font-size: 64px;
+  font-weight: 700;
+  margin-top: 70px;
+  }
+
+  .btn-reset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  }
+  
+  .btn {
+  transition-property: background-colo color;
+  transition-duration: .3s;
+  transition-timing-function: ease;
+  }
+
+  .btn:hover{
+    background-color: black;
+    color: white;
+  }
+    
+  ul{
+  margin: 0;
+  padding: 0;
+  }
+
+  li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }

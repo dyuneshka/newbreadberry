@@ -1,0 +1,39 @@
+{
+    "homeitems": [
+        { 
+            "id": 1,
+            "title": "Круассан с шоколадом", 
+            "description": "Слоеное тесто, шоколад",
+            "price": 270, 
+            "Image": "https://yandex.ru/images/search?from=tabbar&img_url=http%3A%2F%2Fgagaru.club%2Fuploads%2Fposts%2F2023-06%2F1686041668_gagaru-club-p-bulochki-so-sgushchenkoi-fon-77.jpg&lr=1106&p=8&pos=11&rpt=simage&text=%D0%9A%D1%80%D1%83%D0%B0%D1%81%D1%81%D0%B0%D0%BD%20%D1%81%20%D1%88%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4%D0%BE%D0%BC"        
+        },
+        {
+            "id": 2,
+            "title": "Кекс",
+            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
+            "price": 170,
+            "Image": "https://yandex.ru/images/search?from=tabbar&img_url=https%3A%2F%2Fimg.goodfon.ru%2Foriginal%2F2048x1364%2Fd%2F87%2Fkeks-maffin-vypechka.jpg&lr=1106&p=1&pos=16&rpt=simage&text=%D0%9A%D0%B5%D0%BA%D1%81"
+        },
+        {
+            "id": 3,
+            "title": "Осетинский пирог с мясом",
+            "description":"Говяжий фарш, лук, топленое масло",
+            "price": 70,
+            "Image": "https://media-cdn.tripadvisor.com/media/photo-s/0d/93/c4/ae/caption.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Пицца Пепперони",
+            "description": "Пепперони, соус Томатный, сыр (30 см)",
+            "price": 60,
+            "Image": "https://avatars.mds.yandex.net/i?id=e67e96ec35a7fd74c8e67a4ca479a36988399592-4534759-images-thumbs&n=13"
+        },
+        {
+            "id": 5,
+            "title": "Сэндвич с лососем",
+            "description": "Багет пшеничный или ржаной, лосось малосольный, соус Зеленое масло, огурец",
+            "price": 200,
+            "Image": "https://avatars.mds.yandex.net/i?id=281f280ad9440ba7a8519b34542a7628dc35e51e-5311044-images-thumbs&n=13"
+        }
+    ]
+}
