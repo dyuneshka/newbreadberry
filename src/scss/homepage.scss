@@ -85,27 +85,27 @@
 }
 
 .hero_img1{
-  background-image: url("../img/baking_5wmhcnxl8nkr\ 1.svg");
+  background-image: url("../img/baking_5wmhcnxl8nkr_1.svg");
 }
 
 .hero_img2{
-  background-image: url("../img/quality_bzd4aqzb4a50\ 1.svg");
+  background-image: url("../img/quality_bzd4aqzb4a50_1.svg");
 }
 
 .hero_img3{
-  background-image: url("../img/i9in74jhu60f_64\ 1.svg");
+  background-image: url("../img/i9in74jhu60f_64_1.svg");
 }
 
 .hero_img4{
-  background-image: url("../img/delivery_zl08ucsrjws9\ 1.svg");
+  background-image: url("../img/delivery_zl08ucsrjws9_1.svg");
 }
 
 .hero_img5{
-  background-image: url("../img/individual_8jxet2tcotap\ 1.svg");
+  background-image: url("../img/individual_8jxet2tcotap_1.svg");
 }
 
 .hero_img6{
-  background-image: url("../img/wallet_bbufoy9msgmz\ 1.svg");
+  background-image: url("../img/wallet_bbufoy9msgmz_1.svg");
 }
 
 /*AboutUs*/
@@ -148,7 +148,7 @@
   margin-left: 50px;
   margin-bottom: 70px;
   border-radius: 32px;
-  background-image: url("../img/UwINgeNE83I\ 1.jpg");
+  background-image: url("../img/UwINgeNE83I_1.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -173,79 +173,16 @@
   row-gap: 67px;
   column-gap: 112px;
 }
-
-
-.card_product{
+.more{
+  background-image: url("../img/posmotret_bolshe.jpg");
   width: 515px;
-  height: 726px;
-}
-
-.card-img{
-  padding: 0;
-  margin: 0;
-  border-radius: 32px 32px 0 0;
- 
-}
-
-.card-content{
-  border-radius: 32px;
-  width: 515px;
-  height: 726px;
-  background-color: #E1BD94;
-  margin: 0;
-  padding: 0;
-  box-shadow: 7px 5px 5px rgb(0 0 0 / 60%);
-}
-
-.card-desription{
-  width: 440px;
-  height: 321px;
-  margin-left: 17px;
-
-}
-.card-title{
-  margin-top: 0;
-  padding-top: 30px;
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.card-descr{
-  font-size: 24px;
-  font-weight: 400;
-  text-align: justify;
-  max-width: 456px;
-  margin-top: 32px;
-}
-
-.price{
-  font-size: 24px;
+  height: 700px;
   display: flex;
-  justify-content: space-between;
-
-}
-
-.card-btn{
-  width: 278px;
-  height: 80px;
-  border-radius: 32px;
-  background-color: #DB831B;
-  color: white;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.buttons{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  height: 110px;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .more-img{
-  background-image: url("../img/Посмотреть\ больше.jpg");
-  width: 515px;
-  height: 726px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -255,13 +192,7 @@
 }
 
 
-.more{
-  width: 515px;
-  height: 700px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
+
 
 .categories_link{
   color: white;
