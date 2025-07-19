@@ -1,9 +1,11 @@
 import React from 'react'; 
+import { Routes, Route } from 'react-router-dom';
+
 import Header from './components/Header'
 import Homepage from './components/page/Homepage'
 import axios from 'axios';
 import Footer from "./components/Footer"
-
+import EveryCard from './components/page/EveryCard';
 
 
 
@@ -23,12 +25,13 @@ function App() {
 
   return (
     <div className="App">
-        <Header/>
-        <div>
-            <Homepage data={items}/>
+      <Header/>
+      <Routes>   
+        <Route path = "/" element = {<Homepage  data={items}/>}></Route>    
+        <Route path = "/assortment" element = { <EveryCard data={items}/>}></Route>   
+      </Routes>
 
-        </div>
-        <Footer/>
+      <Footer/>
 
     </div>
   );

@@ -1,30 +1,32 @@
 import "../scss/Footer.scss"
-
+import { Link
+    
+ } from "react-router-dom"
 const Footer = () => {
     return (
     <div class="footer">
         <div class="container">
             <ul class="footer_menu">
                 <li class="footer_menu-item">
-                    <a href="./Венская выпечка.html" class="footer_menu-link">Венская выпечка</a>
+                    <Link to="/Венская выпечка" class="footer_menu-link">Венская выпечка</Link>
                 </li>
                 <li class="footer_menu-item">
-                    <a href="./Выпечка.html" class="footer_menu-link">Выпечка</a>
+                    <Link to="/Выпечка" class="footer_menu-link">Выпечка</Link>
                 </li>
                 <li class="footer_menu-item">
-                    <a href="./Осетинские пироги.html" class="footer_menu-link">Осетинские пироги</a>
+                    <Link to="/Осетинские пироги" class="footer_menu-link">Осетинские пироги</Link>
                 </li>
                 <li class="footer_menu-item">
-                    <a href="./Пицца.html" class="footer_menu-link">Пицца</a>
+                    <Link to="/Пицца" class="footer_menu-link">Пицца</Link>
                 </li>
                 <li class="footer_menu-item">
-                    <a href="./Сэндвичи.html" class="footer_menu-link">Сэндвичи</a>
+                    <Link to="/Сэндвичи" class="footer_menu-link">Сэндвичи</Link>
                 </li>
                 <li class="footer_menu-item">
-                    <a href="./Напитки.html" class="footer_menu-link">Напитки</a>
+                    <Link to="/Напитки" class="footer_menu-link">Напитки</Link>
                 </li>
                 <li class="footer_menu-item">
-                    <a href="./Хлеб.html" class="footer_menu-link">Хлеб</a>
+                    <Link to="/Хлеб" class="footer_menu-link">Хлеб</Link>
                 </li>
             </ul>
             <div class="footer_dawn flex">

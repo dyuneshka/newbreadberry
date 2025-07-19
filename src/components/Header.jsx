@@ -1,30 +1,31 @@
 import React from "react"
 import logo from "../img/Logo.svg"
 import '../scss/header.scss'
+import { Link } from "react-router-dom"
 
 const Header = () => {
     return (
-        <div>
+ 
         <header className="header">
-            <a href="#" className="header_logo_link">
+            <Link to="/" className="header_logo_link">
                 <img src = {logo} alt="BREADBERRY кафе-пекарня" className="header_logo"/>
-            </a>
+            </Link>
             <nav className="nav">
                 <ul className="header_nav_list flex">
                     <li className="header_nav_item">
-                        <a href="#" className="header_nav_link">Главная</a>
+                        <Link to = "/" className="header_nav_link">Главная</Link>
                     </li>
                     <li className="header_nav_item">
-                        <a href="" className="header_nav_link">Сделать заказ</a>
+                        <Link to ="/assortment" className="header_nav_link">Сделать заказ</Link>
                         <div className="dropdown-content">
-                            <a href="./Весь ассортимент.html">Весь ассортимент</a>
-                            <a href="./Венская выпечка.html">Венская выпечка</a>
-                            <a href="./Выпечка.html">Выпечка</a>
-                            <a href="./Осетинские пироги.html">Осетинские пироги</a>
-                            <a href="./Пицца.html">Пиццы</a>
-                            <a href="./Сэндвичи.html">Сэндвичи</a>
-                            <a href="./Напитки.html">Напитки</a>
-                            <a href="./Хлеб.html">Хлеб</a>  
+                            <Link to="/assortment">Весь ассортимент</Link>
+                            <Link to="/Венская выпечка">Венская выпечка</Link>
+                            <Link to="/Выпечка">Выпечка</Link>
+                            <Link to="/Осетинские пироги">Осетинские пироги</Link>
+                            <Link to="/Пицца">Пиццы</Link>
+                            <Link to="/Сэндвичи">Сэндвичи</Link>
+                            <Link to="/Напитки">Напитки</Link>
+                            <Link to="/Хлеб">Хлеб</Link>  
                         </div>
                     </li>
                     <li className="header_nav_item">
@@ -42,7 +43,7 @@ const Header = () => {
                 </ul>
             </nav>
     </header>
-        </div>
+
     )
 }
 

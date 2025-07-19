@@ -3,7 +3,7 @@ import '../../scss/homepage.scss'
 import '../../scss/global.scss'
 import Card from './Card'
 import Map from "../map/map"
-
+import { Link } from "react-router-dom";
 
 
 
@@ -92,7 +92,7 @@ const Homepage = ({data}) => {
                                     <Card key = {item.id} data = {item}/>
                                 ))}
                                 <div className="more">
-                                <a href="./Весь ассортимент.html" className="categories_link">
+                                <Link to="/assortment" className="categories_link">
                                     Посмотреть больше предложений
                                     <svg  className="categories_svg"  width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_76_98)">
@@ -105,7 +105,7 @@ const Homepage = ({data}) => {
                                         </clipPath>
                                         </defs>
                                     </svg>   
-                                </a>                         
+                                </Link>                         
                             </div>
                         </div>      
                 </div>
