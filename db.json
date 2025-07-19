@@ -181,53 +181,125 @@
         {
             "id": 24,
              "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
-            "price": 170,
-            "Image": ""
+            "title": "Трубочка с творогом (бездрожжевая)",
+            "description": "Бездрожжевое сдобное тесто, творог, грецкие орехи",
+            "price": 80,
+            "Image": "A_tube_of_cottage_cheese.jpg"
         },
         {
             "id": 25,
              "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
-            "price": 170,
-            "Image": ""
+            "title": "Косичка с манго бездрожжевая",
+            "description": "Бездрожжевое сдобное тесто, конфитюр Манго, грецкие орехи",
+            "price": 80,
+            "Image": "Mango_Braid_without_Yeast.jpg"
         },
         {
             "id": 26,
              "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
-            "price": 170,
-            "Image": ""
+            "title": "Сметанник с ягодами",
+            "description": "Сдобное тесто, сметанная заливка, смородина",
+            "price": 80,
+            "Image": "Sour_cream_with_berries.jpg"
         },
         {
             "id": 27,
              "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
+            "title": "Бриошь с шоколадом",
+            "description": "Тесто Бриошь, шоколад",
             "price": 170,
-            "Image": ""
+            "Image": "Brioche_with_chocolate.jpg"
         },
         {
             "id": 28,
              "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
+            "title": "Бриошь с грушей",
+            "description": "Тесто Бриошь, груша, карамелизированные фисташки",
             "price": 170,
-            "Image": ""
+            "Image": "Brioche_with_pear.jpg"
         },
         {
             "id": 29,
              "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
+            "title": "Бриошь с яблоком",
+            "description": "Тесто Бриошь, яблоки, крем Патисьер",
             "price": 170,
-            "Image": ""
+            "Image": "Brioche_with_apple.jpg"
         },
         {
-            "id": 2,
+            "id": 30,
+             "popularId": "",
+            "title": "Синнабон с корицей",
+            "description": "Тесто для синнабонов, корица, творожный крем",
+            "price": 150,
+            "Image": "Cinnamon_Cinnabon.jpg"
+        },
+        {
+            "id": 31,
+             "popularId": "",
+            "title": "Синнабон с шоколадом",
+            "description": "Тесто для синнабонов, шоколад, творожный крем",
+            "price": 150,
+            "Image": "Cinnabon_with_chocolate.jpg"
+        },
+        {
+            "id": 32,
+             "popularId": "",
+            "title": "Синнабон с маком",
+            "description": "Тесто для синнабонов, мак, белый шоколад",
+            "price": 150,
+            "Image": "Cinnabon_with_poppy_seeds.jpg"
+        },
+        {
+            "id": 33,
+             "popularId": "",
+            "title": "Пирог песочный с творогом и сухофруктами",
+            "description": "Песочное тесто, творог, конфитюр Смородина, курага, чернослив, грецкие орехи",
+            "price": 200,
+            "Image": "Sand_pie_with_cottage_cheese_and_dried_fruits.jpg"
+        },
+        {
+            "id": 34,
+             "popularId": "",
+            "title": "Пирог яблочный",
+            "description": "Сдобное тесто, яблоко",
+            "price": 85,
+            "Image": "Apple_pie.jpg"
+        },
+        {
+            "id": 35,
+             "popularId": "",
+            "title": "Пирог вишневый",
+            "description": "Сдобное тесто, вишня",
+            "price": 85,
+            "Image": "Cherry_pie.jpg"
+        },
+        {
+            "id": 36,
+             "popularId": "",
+            "title": "Пирог абрикосовый",
+            "description": "Сдобное тесто, абрикос, грецкие орехи",
+            "price": 85,
+            "Image": "Apricot_pie.jpg"
+        },
+        {
+            "id": 37,
+             "popularId": "",
+            "title": "Пирог смородиновый",
+            "description": "Сдобное тесто, смородина",
+            "price": 85,
+            "Image": "Currant_pie.jpg"
+        },
+        {
+            "id": 38,
+             "popularId": "",
+            "title": "Тирольский пирог с вишней",
+            "description": "Творожное тесто, вишня, творожно-молочная кремовая заливка",
+            "price": 220,
+            "Image": "Tyrolean_cherry_pie.jpg"
+        },
+        {
+            "id": 39,
              "popularId": "",
             "title": "Кекс",
             "description": "Мука, масло сливочное, сахар, яйцо, изюм",
@@ -235,79 +307,7 @@
             "Image": ""
         },
         {
-            "id": 2,
-             "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
-            "price": 170,
-            "Image": ""
-        },
-        {
-            "id": 2,
-             "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
-            "price": 170,
-            "Image": ""
-        },
-        {
-            "id": 2,
-             "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
-            "price": 170,
-            "Image": ""
-        },
-        {
-            "id": 2,
-             "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
-            "price": 170,
-            "Image": ""
-        },
-        {
-            "id": 2,
-             "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
-            "price": 170,
-            "Image": ""
-        },
-        {
-            "id": 2,
-             "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
-            "price": 170,
-            "Image": ""
-        },
-        {
-            "id": 2,
-             "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
-            "price": 170,
-            "Image": ""
-        },
-        {
-            "id": 2,
-             "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
-            "price": 170,
-            "Image": ""
-        },
-        {
-            "id": 2,
-             "popularId": "",
-            "title": "Кекс",
-            "description": "Мука, масло сливочное, сахар, яйцо, изюм",
-            "price": 170,
-            "Image": ""
-        },
-        {
-            "id": 2,
+            "id": 40,
              "popularId": "",
             "title": "Кекс",
             "description": "Мука, масло сливочное, сахар, яйцо, изюм",
